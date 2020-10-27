@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2020/10/26 09:23:51.000.855,=C:\Users\Vola-Timing-Two\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
+    <Transaction>2020/10/26 09:23:51.000.896,=C:\Users\Vola-Timing-Two\Documents\Embarcadero\Studio\Projets\Unit1.cpp</Transaction>
+    <Transaction>2020/10/26 09:26:22.000.721,=C:\Users\Vola-Timing-Two\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
+    <Transaction>2020/10/26 09:26:22.000.747,=C:\Users\Vola-Timing-Two\Documents\Embarcadero\Studio\Projets\Unit1.cpp</Transaction>
+    <Transaction>2020/10/26 09:27:52.000.902,C:\Users\Vola-Timing-Two\Documents\c++\Exo VOLA\miniTimeCalculator.dfm=C:\Users\Vola-Timing-Two\Documents\Embarcadero\Studio\Projets\Unit1.dfm</Transaction>
+    <Transaction>2020/10/26 09:27:52.000.902,C:\Users\Vola-Timing-Two\Documents\c++\Exo VOLA\miniTimeCalculator.h=C:\Users\Vola-Timing-Two\Documents\Embarcadero\Studio\Projets\Unit1.h</Transaction>
+    <Transaction>2020/10/26 09:27:52.000.902,C:\Users\Vola-Timing-Two\Documents\c++\Exo VOLA\miniTimeCalculator.cpp=C:\Users\Vola-Timing-Two\Documents\Embarcadero\Studio\Projets\Unit1.cpp</Transaction>
+    <Transaction>2020/10/26 09:28:05.000.184,C:\Users\Vola-Timing-Two\Documents\c++\Exo VOLA\Project1PCH1_calculator.h=C:\Users\Vola-Timing-Two\Documents\Embarcadero\Studio\Projets\Project1PCH1.h</Transaction>
+    <Transaction>2020/10/26 09:28:25.000.653,C:\Users\Vola-Timing-Two\Documents\c++\Exo VOLA\Project1_MiniTimeCalc.cbproj=C:\Users\Vola-Timing-Two\Documents\Embarcadero\Studio\Projets\Project1.cbproj</Transaction>
+    <Transaction>2020/10/26 09:30:58.000.295,=C:\Users\Vola-Timing-Two\Documents\c++\Exo VOLA\MiniTimeCalculatorBarth\sclibchrono.h</Transaction>
+    <Transaction>2020/10/26 16:25:38.000.343,C:\Users\Vola-Timing-Two\Documents\c++\Exo VOLA\MiniTimeCalculatorBarth\sclibchrono.h=</Transaction>
+    <Transaction>2020/10/26 16:35:00.000.642,=C:\Users\Vola-Timing-Two\Documents\c++\Exo VOLA\libChrono.h</Transaction>
+  </Transactions>
+</BorlandProject>

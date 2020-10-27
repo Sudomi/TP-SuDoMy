@@ -1,0 +1,110 @@
+//---------------------------------------------------------------------------
+
+#include <vcl.h>
+#pragma hdrstop
+
+#include "miniTimeCalculator.h"
+
+//----
+//#include "String"
+#include <iostream>
+#include <string>
+//#include "sclibchrono.h"
+
+//---------------------------------------------------------------------------
+#pragma package(smart_init)
+#pragma resource "*.dfm"
+TMiniTmeCalculator *MiniTmeCalculator;
+//---------------------------------------------------------------------------
+
+
+//--- CONSTRUCTEUR
+__fastcall TMiniTmeCalculator::TMiniTmeCalculator(TComponent* Owner)
+	: TForm(Owner)
+{
+SGRanked->Cells[0][0] = "Rang";
+SGRanked->Cells[1][0] = "N° dossard";
+SGRanked->Cells[2][0] = "H de départ";
+SGRanked->Cells[3][0] = "H d'arrivée";
+SGRanked->Cells[4][0] = "Temps";
+SGRanked->Cells[5][0] = "EcartTemps";
+
+
+
+/*
+
+bool TSCChrono::IsBetter(int num1, int num2) const
+{
+	if (mpDbTimeInfos == NULL) return false;
+	int time1 = mpDbTimeInfos->GetTime(num1);
+	int time2 = mpDbTimeInfos->GetTime(num2);
+	time1 += mpDbTimeInfos->GetPenalty(num1);
+	time2 += mpDbTimeInfos->GetPenalty(num2);
+	time1 -= GetBonusByNum(num1);
+	time2 -= GetBonusByNum(num2);
+	if (time1 < time2) return true;
+	if (time2 < time1) return false;
+	return (num1 < num2);
+}
+*/
+
+}
+//---------------------------------------------------------------------------
+// Si BDD -> TDBGrid
+void __fastcall TMiniTmeCalculator::BtnAddTimeClick(TObject *Sender)
+{
+
+
+AnsiString listeRang = " ";
+// L'utilisation du typeDef AnsiString est recommander par Borland.
+
+
+//--- Compte les Colonnes, pour les nommées
+int nbOfCol = 0;
+nbOfCol = SGRanked->RowCount;
+
+int nbBib = 0;// Verif int + 99 999 value
+__int64 iStartHour = 0;
+__int64 iEndHour = 0;
+//---------
+// Convertir String to int
+
+//AnsiString __fastcall IntToStr(__int64 Value);
+//This function takes an integer as the argument and returns a string.
+
+
+//------
+
+// Charges les données entré par le chronométreur
+listeRang =  EditStartHour->Text;
+
+nbBib = EditNbBib->Text;
+
+//iStartHour = (listeRang.c_str());
+//iEndHour = EditEndHour->Text;
+
+// iStartHour = stoi(listeRang);
+
+//for (int i = 0; i > 15; i++)
+//{
+//	SGRanked->Cells.Insert(listeRang, i);
+	nbBib++;
+//	SGRanked->Cells[0][1] = "1";
+	SGRanked->Cells[0][nbBib] = "1";
+//}
+
+//--- Méthode de classement à implémenter.
+
+//--- Distribuer dans les colonnes les infos au bon endroit
+
+//--- Pour les données, le faire sous forme de liste ?
+// Commencer à 1 ou 0 l'index comme vu à nombreux cas? ? ?
+
+//---
+//  return 0;
+}
+//---------------------------------------------------------------------------
+
+//---- Mes Classes Méthodes
+
+

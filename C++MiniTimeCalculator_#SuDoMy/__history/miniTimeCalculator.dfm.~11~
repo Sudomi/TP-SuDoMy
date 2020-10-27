@@ -1,0 +1,94 @@
+object MiniTmeCalculator: TMiniTmeCalculator
+  Left = 0
+  Top = 0
+  Caption = 'Mini Tme Calculator'
+  ClientHeight = 336
+  ClientWidth = 635
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'Tahoma'
+  Font.Style = []
+  OldCreateOrder = False
+  PixelsPerInch = 96
+  TextHeight = 13
+  object GBtimeKeeping: TGroupBox
+    Left = 88
+    Top = 8
+    Width = 417
+    Height = 65
+    Caption = 'Time Keeping'
+    TabOrder = 0
+    object LabelBib: TLabel
+      Left = 45
+      Top = 18
+      Width = 24
+      Height = 13
+      Caption = 'Bib : '
+    end
+    object LabelStartHour: TLabel
+      Left = 141
+      Top = 15
+      Width = 60
+      Height = 13
+      Caption = 'Start Hour : '
+    end
+    object LabelFinishLineHour: TLabel
+      Left = 233
+      Top = 15
+      Width = 82
+      Height = 13
+      Caption = 'Finish Line Hour :'
+    end
+    object EditNbBib: TEdit
+      Left = 8
+      Top = 34
+      Width = 100
+      Height = 21
+      MaxLength = 99999
+      TabOrder = 0
+      Text = '0'
+    end
+    object EditStartHour: TEdit
+      Left = 120
+      Top = 34
+      Width = 94
+      Height = 21
+      TabOrder = 1
+    end
+    object EditEndHour: TEdit
+      Left = 224
+      Top = 34
+      Width = 100
+      Height = 21
+      Color = clWhite
+      TabOrder = 2
+    end
+    object BtnAddTime: TButton
+      Left = 344
+      Top = 21
+      Width = 55
+      Height = 25
+      Caption = 'Add Time'
+      TabOrder = 3
+      OnClick = BtnAddTimeClick
+    end
+  end
+  object SGRanked: TStringGrid
+    Left = 88
+    Top = 96
+    Width = 417
+    Height = 176
+    ColCount = 6
+    DrawingStyle = gdsGradient
+    FixedColor = clHighlight
+    TabOrder = 1
+    RowHeights = (
+      24
+      24
+      24
+      24
+      24)
+  end
+end
